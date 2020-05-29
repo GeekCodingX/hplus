@@ -9,7 +9,7 @@ H+是一个完全响应式，基于 Bootstrap3.3.6 最新版本开发的扁平�
 
 ## 文档
 
-见本项目下的 [docs 文件夹](https://hplus_admin.gitee.io/docs)。
+见本项目下的 [docs 文件夹](https://hplus_admin.gitee.io/hplus/docs)。
 
 ## 推荐
 
