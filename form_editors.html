@@ -134,8 +134,8 @@
 			};
 			var save = function () {
 				$('#eg').removeClass('no-padding');
-				var aHTML = $('.click2edit').code(); //save HTML If you need(aHTML: array).
-				$('.click2edit').destroy();
+				var sHTML = $('.summernote').summernote('code'); //save HTML If you need(aHTML: array).
+				$('.click2edit').summernote('destroy');
 			};
 		</script>
 
