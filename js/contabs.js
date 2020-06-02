@@ -238,6 +238,11 @@ $(function () {
     }
 
     $('.J_menuTabs').on('click', '.J_menuTab i', closeTab);
+	
+	// 关闭当前选项卡
+    function tabCloseCurrent() {
+    	$('.page-tabs-content').find('.active i').trigger("click");
+    }
 
     //关闭其他选项卡
     function closeOtherTabs(){
@@ -276,23 +281,25 @@ $(function () {
 
     //刷新iframe
     function refreshTab() {
-        var target = $('.J_iframe[data-id="' + $(this).data('id') + '"]');
+        var currentId = $('.page-tabs-content').find('.active').attr('data-id');
+    	var target = $('.J_iframe[data-id="' + currentId + '"]');
         var url = target.attr('src');
-//        //显示loading提示
-//        var loading = layer.load();
-//        target.attr('src', url).load(function () {
-//            //关闭loading提示
-//            layer.close(loading);
-//        });
+        target.attr('src', url).ready();
     }
 
     $('.J_menuTabs').on('dblclick', '.J_menuTab', refreshTab);
+	
+	// 页签刷新按钮
+    $('.tabReload').on('click', refreshTab);
 
     // 左移按扭
     $('.J_tabLeft').on('click', scrollTabLeft);
 
     // 右移按扭
     $('.J_tabRight').on('click', scrollTabRight);
+	
+	// 关闭当前
+	$('.tabCloseCurrent').on('click', tabCloseCurrent);
 
     // 关闭全部
     $('.J_tabCloseAll').on('click', function () {
