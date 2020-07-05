@@ -313,5 +313,32 @@ $(function () {
         });
         $('.page-tabs-content').css("margin-left", "0");
     });
+    
+    // 右键菜单实现
+    $.contextMenu({
+        selector: ".J_menuTab",
+        trigger: 'right',
+        autoHide: true,
+        items: {
+            "close_current": {
+                name: "关闭当前",
+                callback: function(key, opt) {
+                	opt.$trigger.find('i').trigger("click");
+                }
+            },
+            "close_other": {
+                name: "关闭其他",
+                callback: function(key, opt) {
+                	$(".J_tabCloseOther").trigger("click");
+                }
+            },
+            "close_all": {
+                name: "全部关闭",
+                callback: function(key, opt) {
+					$('.J_tabCloseAll').trigger("click");
+                }
+            },
+        }
+    })
 
 });
