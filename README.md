@@ -1,7 +1,6 @@
 # H+ 后台主题 UI 框架
 
-> Hplus(又名 H+) 原是一款商业 UI 框架，首发于 2013 年，由 Zihan's Blog 开发并维护，属于国内早期做中后台 UI 框架的产品，虽为商业产品，但在国内拥有广泛的用户基础。
-> 由于作者自身原因，该框架已停止维护，现由官方采用 MIT 协议面向社区开源，欢迎社区贡献代码。
+> Hplus(又名 H+) 原是一款商业 UI 框架，属于国内早期做中后台 UI 框架的产品，现[若依开源](http://ruoyi.vip/)购买该软件的全部权益（包括但不限于软件的著作权、商标权、专利权等），采用 MIT 协议面向社区永久开源，免费商用。
 
 ## 说明
 
@@ -11,26 +10,12 @@ H+是一个完全响应式，基于 Bootstrap3.3.7 最新版本开发的扁平�
 
 见本项目下的 [docs 文件夹](https://hplus_admin.gitee.io/hplus/docs)。
 
-## 推荐
+## 官网
 
-- [Admui 通用管理系统快速开发框架](http://www.admui.com/)
-- [若依管理系统](http://ruoyi.vip/)
+- [若依开源 http://ruoyi.vip](http://ruoyi.vip/)
 
-## 参与贡献
+- [配套后台系统 https://gitee.com/y_project/RuoYi](https://gitee.com/y_project/RuoYi)
 
-1. Fork 本仓库
-1. 新建 Feat_xxx 分支
-1. 提交代码
-1. 新建 Pull Request
+## 捐赠
 
-## 贡献者
-
-- [若依](https://gitee.com/y_project) (若依管理系统作者)
-
-## 协议
-
-Hplus 采用 [MIT](https://gitee.com/hplus_admin/hplus/raw/master/LICENSE) 开源协议发布，永久 100%开源免费。
-
-## 捐助
-
-<img width="200" src="https://gitee.com/hplus_admin/hplus/raw/master/img/donate-qrcode.png" />
+<img width="200" src="https://foruda.gitee.com/images/1688695589833019865/0f38dcf8_1151004.png" />
