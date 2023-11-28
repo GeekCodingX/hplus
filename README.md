@@ -1,6 +1,6 @@
 # H+ 后台主题 UI 框架
 
-> Hplus(又名 H+) 原是一款商业 UI 框架，属于国内早期做中后台 UI 框架的产品，现[若依开源](http://ruoyi.vip/)购买该软件的全部权益（包括但不限于软件的著作权、商标权、专利权等），采用 MIT 协议面向社区永久开源，免费商用。
+> Hplus(又名 H+) 原是一款商业 UI 框架，属于国内早期做中后台 UI 框架的产品，[若依开源](http://ruoyi.vip/)购买该软件的全部权益（包括但不限于软件的著作权、商标权、专利权等），采用 MIT 协议面向社区永久开源，免费商用。
 
 ## 说明
 
@@ -12,10 +12,6 @@ H+是一个完全响应式，基于 Bootstrap3.3.7 最新版本开发的扁平�
 
 ## 官网
 
-- [若依开源 http://ruoyi.vip](http://ruoyi.vip/)
+- 若依开源 [http://ruoyi.vip](http://ruoyi.vip/)
 
-- [配套后台系统 https://gitee.com/y_project/RuoYi](https://gitee.com/y_project/RuoYi)
-
-## 捐赠
-
-<img width="200" src="https://foruda.gitee.com/images/1688695589833019865/0f38dcf8_1151004.png" />
+- 配套后台管理系统 [https://gitee.com/y_project/RuoYi](https://gitee.com/y_project/RuoYi)
